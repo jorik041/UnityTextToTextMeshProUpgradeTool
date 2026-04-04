@@ -9,6 +9,7 @@ namespace TextToTMPNamespace
 {
 	public partial class TextToTMPWindow
 	{
+        [Serializable]
 		private abstract class ComponentProperties<LegacyComponentType, UpgradedComponentType> where LegacyComponentType : Component where UpgradedComponentType : Component
 		{
 			public GameObject gameObject;
